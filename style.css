@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    margin-bottom: 0px;
+}
+
+#container{
+    margin:  10px 35px 5px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#firsthead{
+    color: white;
+    font-style: normal;
+    font-family: "Bowlby One SC", sans-serif; 
+    letter-spacing: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    padding: 2px;
+    font-weight: 1000;
+    text-shadow: 3px 0 white;
+   
+}
+
+.myRed{
+    color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    text-shadow: 3px 0 red;
+}
+
+.bigN{
+    font-size: 1.15em;
+}
+
+.bigF{
+    font-size: 1.15em;
+    
+}
+
+#description{
+    color: white;
+    font-style: normal;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.form{
+    text-align: left;
+    padding: 20px 30px 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 310px;
+	height: 550px;
+    top: 130px;
+	bottom: 1px;
+	left: 0;
+	right: 0;
+    margin: 0px auto 10px auto;
+    font-family: "Sorts Mill Goudy", sans-serif;
+}
+
+.box{
+    color: white;
+    font-size: smaller;
+}
+
+.movie_type{
+    color: white;
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+
+#name{
+    width: 300px;
+    margin: 5px 0px 10px;
+    height: 30px;
+}
+
+#age{
+    width: 300px;
+    margin: 5px 0px 10px;
+    height: 30px;
+}
+
+#email{
+    width: 300px;
+    margin: 5px 0px 10px;
+    height: 30px;
+}
+
+#content{
+    width: auto;
+    margin: 5px 0px 10px;
+    height: 20px;
+}
+
+#movie_type, #gender{
+    height: 11px;
+    margin-left: 0px;
+}
+
+#head5{
+    margin-top: 13px;
+    margin-bottom: 2px;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+#comment{
+    resize: none;
+}
+
+#submit{
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    color:white;
+    background-color: red;
+    border:0;
+    cursor:pointer;
+}
+
+.submit{
+    text-align: center;
+}
