@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Netflix Submit/Sign Up Page" />
+    <meta
+      name="keywords"
+      content="Netflix, film, series, submit, sign up, watch"
+    />
+    <meta name="author" content="Clarusway #ram# Full Stack Team" />
+    <title>NETFLIX Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/netflix.png" type="image/png" />
+  </head>
+  <body id="title">
+    <div id="container">
+      <div class="firsthead">
+      <h1 id="firsthead"><span class="bigN">N</span>ET<span class="myRed"><span class="bigF">F</span>LIX</span></h1>
+      </div>
+      <p id="description">Thank you for signing up at Netflix. Tell us more about your self</p>
+      <div class="form">
+      <form action="result.html" name="user's info" method="">
+        <div class="box">
+          <label for="name">Name</label> <br>
+          <input
+            type="text"
+            name="username"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="box">
+          <label for="age">Age</label> <br>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Age"
+            min="18"
+            max="99"
+          />
+        </div>
+        <div class="box">
+            <label for="email">Email</label> <br>
+            <input
+              type="email"
+              name="e-mail"
+              id="email"
+              placeholder="Enter your mail"
+            />
+          </div>
+          <div class="box">
+              <label for="content">Content type</label><br>
+              <select name="content_type" id="content">
+              <option value="serie" selected>Series</option>
+              <option value="tv_show">TV Shows</option>
+              <option value="documentary">Documentaries</option>
+              <option value="movie">Movies</option>
+              <option value="cartoon">Cartoons</option>
+            </select>
+          </div>
+          <div class="movie_type">
+            <label for="movie_type">Movie type</label> <br>
+            <input type="checkbox" name="movie_type" id="movie_type" value="comedy"> Comedy <br>
+            <input type="checkbox" name="movie_type" id="movie_type" value="action"> Action <br>
+            <input type="checkbox" name="movie_type" id="movie_type" value="romance" checked> Romance <br>
+          </div>
+          <div class="box">
+            <label for="gender">Gender</label> <br>
+            <input type="radio" name="gender" id="gender" value="male"> Male <br>
+            <input type="radio" name="gender" id="gender" value="female"> Female <br>
+            <input type="radio" name="gender" id="gender" value="other"> Other <br>
+          </div>
+          <div class="box">
+              <label for="comment"></label>
+              <h5 id="head5">Feed back</h5>
+              <textarea name="comments" rows="5" cols="38" id="comment" placeholder="Any comment"></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" id="submit">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
