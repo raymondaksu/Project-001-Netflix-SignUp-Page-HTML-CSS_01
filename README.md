@@ -1,4 +1,4 @@
-https://raymondaksu.github.io/HTML-CSS-001-Netflix-SignUp-Page/
+https://raymondaksu.github.io/Project-001-Netflix-SignUp-Page-HTML-CSS_01/
 
 # Project-001 :Survey Form (HC-01)
 
